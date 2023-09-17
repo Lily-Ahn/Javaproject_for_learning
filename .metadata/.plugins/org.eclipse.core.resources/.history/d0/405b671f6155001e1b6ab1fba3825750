@@ -1,0 +1,19 @@
+package com.silsub1;
+
+public class SilsubMain {
+	
+	public static void main (String[] args) {
+		
+		example_Munjae em = new example_Munjae();
+		
+		em.mun1();
+		//em.mun2();
+		//em.mun3();
+		//em.mun4();
+		//em.mun5();
+		//em.mun6();
+		//em.mun7();
+		
+	}
+
+}

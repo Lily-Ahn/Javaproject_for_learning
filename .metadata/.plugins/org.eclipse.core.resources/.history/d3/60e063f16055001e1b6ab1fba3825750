@@ -1,0 +1,64 @@
+package com.silsub1;
+import java.util.Scanner;
+
+public class example_Munjae {
+	
+	public void mun1 () {
+		
+		System.out.println("국어 점수를 입력하시오 : ");
+		System.out.println("수학 점수를 입력하시오 : ");
+		System.out.println("영어 점수를 입력하시오 : ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int kor = sc.nextInt();
+		int math = sc.nextInt();
+		int eng = sc.nextInt();
+		double aver = (kor+math+eng)/3.0;
+		
+		if (kor >= 40 && math >= 40 && eng >= 40 && aver >=60 ) {
+			System.out.println("합격입니다!");
+			System.out.println("국어 점수 : " + kor);
+			System.out.println("수학 점수 : " + math);
+			System.out.println("영어 점수 : " + eng);
+			System.out.println("과목 점수 합계 : " + (kor+math+eng) );
+			System.out.println("평균 : " + aver );
+			
+		} else { System.out.println("불합격입니다.");
+			
+		}
+		
+			
+	}
+	
+	public void mun2 () {
+		
+	}
+	
+	public void mun3 () {
+		
+	}
+	
+	public void mun4 () {
+		
+	}
+	
+	
+	public void mun5 () {
+		
+	}
+	
+	
+	public void mun6 () {
+		
+	}
+	
+	
+	
+	public void mun7 () {
+		
+	}
+	
+	
+
+}
