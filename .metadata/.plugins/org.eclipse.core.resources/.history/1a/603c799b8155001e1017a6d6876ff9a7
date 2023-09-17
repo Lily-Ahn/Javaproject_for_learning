@@ -194,8 +194,8 @@ public class example_Munjae {
 			등급 = 'F';
 		} 
 		
-		System.out.println("해당 학생의 점수 : " + 점수);
-		System.out.println("해당 학생의 학점 : " + 등급);
+		System.out.println("해당 학생의 점수 : " + 점수 );
+		System.out.println("해당 학생의 학점 : " + 등급 );
 	
 	}
 }
