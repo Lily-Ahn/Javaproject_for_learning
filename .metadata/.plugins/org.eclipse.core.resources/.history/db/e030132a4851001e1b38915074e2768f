@@ -1,0 +1,14 @@
+package com.example;
+
+public class TestMain {
+	
+	public static void main(String[] args) {
+		
+		Example exam1 = new Example();
+		exam1.example1();
+		
+		
+		
+	}
+
+}

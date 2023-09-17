@@ -1,0 +1,13 @@
+package com.test;
+
+public class Variable01 {
+
+	//main method: 메인 메소드, 프로그램의 진입점 , 프로그램 실행하는 기능
+	public static void main(String[] args) {
+	
+	
+	
+	}
+	
+	
+}

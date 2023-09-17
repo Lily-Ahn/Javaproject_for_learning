@@ -1,0 +1,15 @@
+package com.test01;
+
+public class TestMain {
+
+	
+	public static void main(String[] args) {
+		
+		IfTest01 it = new IfTest01 () ;
+		//it.testIf();
+		//it.testIfElse1();
+		it.testIfElse2();
+		
+		
+	}
+}

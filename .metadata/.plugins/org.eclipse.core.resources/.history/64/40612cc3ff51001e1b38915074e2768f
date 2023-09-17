@@ -1,0 +1,51 @@
+package com.test01;
+
+public class SwitchTest01 {
+	//조건식의 값에 따라 case 를 찾아 명령을 수행하는 조건문이다. 
+	
+		public void test() {
+			int no = 5;
+			
+			switch(no) {
+			
+			case 1: 
+				System.out.println("1입니다.");
+				break;
+			case 2:
+				System.out.println("2입니다.");
+				break;
+			case 3:
+				System.out.println("3입니다.");
+				break;
+			default:
+				System.out.println("아닙니다!");
+				break;
+				
+			}
+		}
+		
+		public void test2() {
+			char ch = 'a';
+			
+			switch(ch) {
+			
+			case 'a' :
+				System.out.println("a!!");
+				break;
+			case 'b' :
+				System.out.println("b@@");
+				break;
+			case 'c' :
+				System.out.println("c##");
+				break;
+			default :
+				System.out.println("아닙니다!!");
+			
+			}
+			
+			
+			
+			
+		}
+	}
+

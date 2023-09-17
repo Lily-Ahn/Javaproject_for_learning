@@ -1,0 +1,19 @@
+package com.test01;
+
+public class MethodTest01 {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	//public 은 접근제한자 
+	//public 이라는 말은 어디서든, 누구나 접근 가능하다는 뜻, 기호는 '+' 임 
+	public static void publicMethod01( ) {
+		
+		System.out.println("public Method");
+		
+		
+	}
+
+}

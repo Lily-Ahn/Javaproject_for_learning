@@ -1,0 +1,52 @@
+package com.practice;
+import java.util.Scanner;
+
+public class Example {
+	
+	public void sample1() {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("국어점수를 입력하세요.");
+		System.out.println("영어점수를 입력하세요.");
+		System.out.println("수학점수를 입력하세요.");
+		
+		
+		int kor = sc.nextInt();
+		int eng = sc.nextInt();
+		int math = sc.nextInt();
+		
+		int total = (kor + eng + math);
+		
+		System.out.println("총 점수 : " + total);
+		
+		double aver;
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	public void sample2() {
+		
+	}
+
+	
+	
+	public void sample3() {
+		
+	}
+
+	
+	
+	public void sample4() {
+		
+	}
+
+	
+	
+
+}
