@@ -7,6 +7,7 @@ public class Main {
 		Sample sp = new Sample();
 		
 		sp.munjae1();
+		//sp.munjae2();
 
 	}
 
