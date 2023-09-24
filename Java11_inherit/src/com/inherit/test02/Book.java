@@ -82,45 +82,28 @@ public class Book {
 		//원본 객체의 제목이 null이면 비교할 객체의 제목도 null 이어야 필드가 같은 것 
 		if (title==null) {
 			if(other.title != null) {
-				return false;
-				
-			}
-		 else if(!title.equals(other.title)) {// 두 객체의 title 이 서로 다른 경우 return false;
+				return false;		
+			} else if(!title.equals(other.title)) {// 두 객체의 title 이 서로 다른 경우 return false;
 			return false;
-		}
-		
-		return true;
-		
-	}
-	
-	
+		}		
+		return true;		
+	}		
 	if(writer == null) {
 		if(other.writer != null) {
 			return false;
-		} else if (!writer.equals(other.writer)) {
-			
-			return false;		
-		
-	}
-	
-	}
-	
-
-	
+		} else if (!writer.equals(other.writer)) {			
+			return false;			
+	}	
+	}		
 	if (price != other.price) {
-		return false;
-		
-	}
-	
-	return true;
-	
-	
+		return false;		
+	}	
+	return true;		
 }
 	
 	
 	@Override
-	public int hashCode() {
-		
+	public int hashCode() {		
 		return (title+writer+price).hashCode();
 	}
 	
