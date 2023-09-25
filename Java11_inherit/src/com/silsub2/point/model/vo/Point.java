@@ -1,10 +1,11 @@
 package com.silsub2.point.model.vo;
+import java.util.Scanner;
 
 public class Point {
-	
+	//필드
 	protected int x;
 	protected int y;
-	
+	//생성자
 	public Point(){};
 	public Point(int x , int y ){
 		this.x = x;
@@ -24,9 +25,12 @@ public class Point {
 		this.y = y;
 	}
 	
+	
 	public void draw() {
-		System.out.println("x 값 좌표 : " + x);
-		System.out.println("y 값 좌표 : " + y);
+		
+		System.out.println("x : " + x + ", y : "+y);
+		
 	}
+	
 
 }

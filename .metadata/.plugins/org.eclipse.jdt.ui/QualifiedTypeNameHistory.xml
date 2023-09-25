@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.test01.MethodTest01"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Point"/>
+    <fullyQualifiedTypeName name="com.silsub2.point.model.vo.Circle"/>
 </qualifiedTypeNameHistroy>

@@ -22,10 +22,9 @@ public class Main {
 		//첫번째 객체와 깊은 복제 객체의 내용은 같은가?
 		System.out.println("b1과 깊은 복사한 b4의 값들은 일치하는가 ? : " + b1.equals(b4));
 		//첫번째 객체와 얕은 복제 객체의 주소가 같은가?
-		System.out.println(b3);
-		System.out.println(b4);
+		System.out.println(b1.hashCode()==b3.hashCode());
 		//첫번째 객체와 깊은 복제 객체의 주소가 같은가?
-		System.out.println(b1.equals(b4));
+		System.out.println(b1.hashCode()==b4.hashCode());
 		
 		
 	}
