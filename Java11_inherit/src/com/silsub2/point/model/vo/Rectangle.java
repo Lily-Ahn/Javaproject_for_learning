@@ -1,16 +1,14 @@
 package com.silsub2.point.model.vo;
 
 public class Rectangle extends Point {
-	
+	//필드
 	int width;
 	int height;
-	Point rp;
 	
-	
+	//생성자
 	Rectangle(){};
 	Rectangle(int x, int y, int width, int height){
-		this.x = super.x;
-		this.y = super.y;
+		super(x,y);
 		this.width = width;
 		this.height = height;
 	}
@@ -31,11 +29,9 @@ public class Rectangle extends Point {
 	
 	@Override
 	public void draw() {
-		int recarea= x*y;
-		int roundarea= 2*(x+y);
-		System.out.println("사각형의 각 x,y 좌표는 : ");
-		System.out.println("사각형의 둘레는 : " + String.format("%1.f", roundarea));
-		System.out.println("사각형의 면적은 : " + String.format("%1.f", recarea));
+		super.draw();
+		System.out.println("사각형의 면적 : " + (int)(width*height)*10/10.0);
+		System.out.println("사각형의 둘레 : " + (int)2.0*(width+height)*10/10.0);
 		
 	}
 
