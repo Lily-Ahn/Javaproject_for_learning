@@ -4,8 +4,10 @@ import com.collection.silsub1.view.BookMenu;
 public class Run {
 
 	public static void main(String[] args) {
-		BookMenu bk = new BookMenu();
-
+		new BookMenu().mainMenu();
+		
+		//bk.mainMenu();
+		//bk.inputBook();
 	}
 
 }
